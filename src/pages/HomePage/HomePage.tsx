@@ -8,9 +8,11 @@ const HomePage = () => {
   return (
     <div className="container">
       <StarBackground />
-      <Navbar />
-      <AnimatedLogo />
-      <FindMeOn />
+      <div className="content-container">
+        <Navbar />
+        <AnimatedLogo />
+        <FindMeOn />
+      </div>
     </div>
   );
 };
