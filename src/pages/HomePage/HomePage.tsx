@@ -7,12 +7,12 @@ import StarBackground from "../../components/StarBackground/StarBackground";
 const HomePage = () => {
   return (
     <div className="container">
-      <StarBackground />
-      <div className="content-container">
-        <Navbar />
-        <AnimatedLogo />
-        <FindMeOn />
-      </div>
+      {/* <StarBackground /> */}
+      {/* <div className="content-container"> */}
+      <Navbar />
+      <AnimatedLogo />
+      <FindMeOn />
+      {/* </div> */}
     </div>
   );
 };
