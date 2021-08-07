@@ -6,8 +6,8 @@ const AnimatedLogo = () => {
   return (
     <motion.div
       className="motion-container"
-      animate={{ rotate: [-1, 0, -1] }}
-      transition={{ duration: 3, repeat: Infinity }}
+      animate={{ rotate: -5 }}
+      transition={{ duration: 3 }}
     >
       <motion.p
         animate={{ scale: [0.98, 1.02, 0.98] }}
