@@ -1,5 +1,24 @@
 .entry-container {
+  margin: 20vh 0;
   p {
     color: white;
+  }
+
+  .entry-image {
+    width: 60vw;
+    border-radius: 0.8rem;
+    opacity: 1;
+    &:hover {
+      opacity: 0.35;
+    }
+    transition: 0.2s linear;
+  }
+  .entry-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .entry-description {
+    font-weight: 200;
+    font-style: italic;
   }
 }

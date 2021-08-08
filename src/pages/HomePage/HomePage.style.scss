@@ -1,7 +1,8 @@
 .container {
   width: 90vw;
-  .content-container {
-    overflow-y: scroll;
-    height: 98vh;
+  display: flex;
+  flex-direction: column;
+  .home {
+    margin-bottom: 10vh;
   }
 }

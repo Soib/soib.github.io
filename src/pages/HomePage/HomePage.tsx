@@ -7,10 +7,14 @@ import ProjectsSpotlight from "../../components/ProjectsSpotlight/ProjectsSpotli
 const HomePage = () => {
   return (
     <div className="container">
-      <Navbar />
-      <AnimatedLogo />
-      <FindMeOn />
-      <ProjectsSpotlight />
+      <div className="home">
+        <Navbar />
+        <AnimatedLogo />
+        <FindMeOn />
+      </div>
+      <div className="projects">
+        <ProjectsSpotlight />
+      </div>
     </div>
   );
 };
