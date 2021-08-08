@@ -21,6 +21,7 @@ const ProjectEntry = ({
   return (
     <div className="entry-container">
       <p>{name}</p>
+      <img src={"./../../resources/images/" + name + ".png"} />
       <p>{description}</p>
       <p>{technologies}</p>
       <p>{status}</p>
