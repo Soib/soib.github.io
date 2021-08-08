@@ -8,24 +8,16 @@
     &:hover {
       .icon {
         color: #f000ff;
-        box-shadow: 0 0 20px #fff, 0 0 4px #fff, 0 0 21px #fff, 0 0 20px #f000ff,
-          0 0 20px #f000ff, 0 0 32px #f000ff, 0 0 50px #f000ff, 0 0 32px #f000ff;
       }
       background: #3d0f3f;
       border: 1px solid #fff;
-      box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 0.1rem #f000ff,
-        0 0 0.2rem #f000ff, 0 0 0.8rem #f000ff, inset 0 0 0.3rem #f000ff;
     }
     .icon {
       color: white;
-      box-shadow: 0 0 20px #fff, 0 0 4px #fff, 0 0 21px #fff, 0 0 20px #f000ff,
-        0 0 20px #f000ff, 0 0 32px #f000ff, 0 0 50px #f000ff, 0 0 32px #f000ff;
     }
     border: 1px solid #fff;
     border-radius: 0.8rem;
     padding: 2rem;
     margin: 1.3rem;
-    box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 0.1rem #f000ff,
-      0 0 0.2rem #f000ff, 0 0 0.8rem #f000ff, inset 0 0 0.3rem #f000ff;
   }
 }
