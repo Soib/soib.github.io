@@ -6,7 +6,7 @@ import ProjectEntry from "../ProjectEntry/ProjectEntry";
 const ProjectsSpotlight = () => {
   return (
     <div className="project-container">
-      <h1>Projects</h1>
+      <h1 className="noselect">Projects</h1>
       {projects.map((props) => (
         <ProjectEntry {...props} />
       ))}

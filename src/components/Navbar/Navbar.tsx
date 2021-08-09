@@ -4,7 +4,7 @@ import "./Navbar.style.scss";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <motion.p className="navbar-logo">
+      <motion.p className="navbar-logo noselect">
         {"<> "}lukasz_cybulski{" </>"}
       </motion.p>
     </div>

@@ -1,7 +1,5 @@
 import React from "react";
 import "./ProjectEntry.style.scss";
-import { FiCheckCircle } from "react-icons/fi";
-import { AiOutlineHourglass } from "react-icons/ai";
 import {
   SiRedux,
   SiStyledComponents,
@@ -15,6 +13,7 @@ import {
 
 interface IProjectEntry {
   name: string;
+  url: string;
   image_url: string;
   description: string;
   technologies: string[];
@@ -23,6 +22,7 @@ interface IProjectEntry {
 
 const ProjectEntry = ({
   name,
+  url,
   image_url,
   description,
   technologies,
@@ -35,9 +35,15 @@ const ProjectEntry = ({
   };
   return (
     <div className="entry-container">
-      <p className="entry-title">{name}</p>
-      <img className="entry-image" src={image_url} title={name} />
-      <p className="entry-description">{description}</p>
+      <p className="entry-title noselect">{name}</p>
+      <img
+        className="entry-image noselect"
+        src={image_url}
+        title={name}
+        onClick={() => window.open(url, "_blank")}
+      />
+      {status === "in-progress" && <p className="entry-status">In-progress</p>}
+      <p className="entry-description noselect">{description}</p>
       {technologies.map((technology) => {
         if (technology === "react") return <SiReact style={style} />;
         if (technology === "typescript") return <SiTypescript style={style} />;
@@ -51,11 +57,6 @@ const ProjectEntry = ({
         if (technology === "scss") return <SiSass style={style} />;
         return "";
       })}
-      {status === "success" ? (
-        <FiCheckCircle style={style} />
-      ) : (
-        <AiOutlineHourglass style={style} />
-      )}
     </div>
   );
 };

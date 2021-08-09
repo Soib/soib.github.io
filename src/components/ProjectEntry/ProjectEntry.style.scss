@@ -1,5 +1,9 @@
 .entry-container {
   margin: 20vh 0;
+  .entry-status {
+    color: white;
+    font-size: 2rem;
+  }
   p {
     color: white;
   }
@@ -10,6 +14,7 @@
     opacity: 1;
     &:hover {
       opacity: 0.35;
+      cursor: pointer;
     }
     transition: 0.2s linear;
   }

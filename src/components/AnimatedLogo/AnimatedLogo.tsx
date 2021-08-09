@@ -12,7 +12,7 @@ const AnimatedLogo = () => {
       <motion.p
         animate={{ scale: [0.98, 1.02, 0.98] }}
         transition={{ duration: 3, repeat: Infinity }}
-        className="logo"
+        className="logo noselect"
       >
         Good to see you here!
       </motion.p>

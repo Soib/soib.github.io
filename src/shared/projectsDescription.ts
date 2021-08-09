@@ -1,6 +1,7 @@
 export const projects = [
   {
     name: "politgot",
+    url: "https://politgot.vercel.app",
     image_url:
       "https://github.com/Soib/soib.github.io/blob/dev-projects/src/resources/images/politgot.png?raw=true",
     description:
@@ -10,6 +11,7 @@ export const projects = [
   },
   {
     name: "new years countdown",
+    url: "https://simple-countdown.vercel.app",
     image_url:
       "https://github.com/Soib/soib.github.io/blob/dev-projects/src/resources/images/simple_countdown.png?raw=true",
     description:
@@ -19,6 +21,7 @@ export const projects = [
   },
   {
     name: "monopoly transfers",
+    url: "#",
     image_url:
       "https://github.com/Soib/soib.github.io/blob/dev-projects/src/resources/images/monopoly_transfers.png?raw=true",
     description:
@@ -35,6 +38,7 @@ export const projects = [
   },
   {
     name: "Plane seats management",
+    url: "#",
     image_url:
       "https://github.com/Soib/soib.github.io/blob/dev-projects/src/resources/images/unavailable.png?raw=true",
     description: "Seat reservation for planes and basic informations from API",
