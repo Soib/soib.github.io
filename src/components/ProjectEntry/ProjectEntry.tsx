@@ -36,6 +36,7 @@ const ProjectEntry = ({
   return (
     <div className="entry-container">
       <p className="entry-title noselect">{name}</p>
+
       <img
         className="entry-image noselect"
         src={image_url}

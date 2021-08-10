@@ -1,7 +1,7 @@
 import React from "react";
-import { VscGithubAlt } from "react-icons/vsc";
-import { AiOutlineLinkedin } from "react-icons/ai";
-import { RiMailSendLine } from "react-icons/ri";
+import { GoMarkGithub } from "react-icons/go";
+import { ImLinkedin } from "react-icons/im";
+import { IoIosMailOpen } from "react-icons/io";
 import "./FindMeOn.style.scss";
 import { socials } from "./../../shared/links";
 import ShowIcon from "../ShowIcon/ShowIcon";
@@ -9,16 +9,13 @@ import ShowIcon from "../ShowIcon/ShowIcon";
 const FindMeOn = () => {
   const style = {
     color: "#ffffff",
-    fontSize: "3.5rem",
+    fontSize: "5rem",
   };
   return (
     <div className="icon-container">
-      <ShowIcon icon={<VscGithubAlt style={style} />} link={socials.github} />
-      <ShowIcon
-        icon={<AiOutlineLinkedin style={style} />}
-        link={socials.linkedin}
-      />
-      <ShowIcon icon={<RiMailSendLine style={style} />} link={socials.mail} />
+      <ShowIcon icon={<GoMarkGithub style={style} />} link={socials.github} />
+      <ShowIcon icon={<ImLinkedin style={style} />} link={socials.linkedin} />
+      <ShowIcon icon={<IoIosMailOpen style={style} />} link={socials.mail} />
     </div>
   );
 };
