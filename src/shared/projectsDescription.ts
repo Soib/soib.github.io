@@ -1,5 +1,21 @@
 export const projects = [
   {
+    name: "currency-transactions",
+    url: "https://currency-transactions.vercel.app",
+    image_url:
+      "https://github.com/Soib/soib.github.io/blob/dev/src/resources/images/currency-transactions.png?raw=true",
+    description:
+      "Application using API's exchange currency to calculate new transactions from EUR to PLN. After adding transactions you can adjust the currency to see how total changes. Applications also allow for deleting transactions and shows highest transactions apart from the others.",
+    technologies: [
+      "react",
+      "styled-components",
+      "material-ui",
+      "typescript",
+      "redux",
+    ],
+    status: "success",
+  },
+  {
     name: "politgot",
     url: "https://politgot.vercel.app",
     image_url:
